@@ -53,3 +53,13 @@
   animation: pulsar 0.45s ease-in-out infinite;
 }
 
+@keyframes atacar {
+  0%, 100% { transform: scale(1)    translateY(0); }
+  50%      { transform: scale(1.35) translateY(-24px); }
+}
+
+.atacando {
+  border-color: crimson;
+  animation: atacar 0.55s ease-in-out infinite;
+}
+
