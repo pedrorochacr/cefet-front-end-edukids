@@ -12,7 +12,7 @@
  * botões play/stop (para que o elemento se revele lentamente)
  */
  #controles ul {
-
+   transition: transform 0.6s ease;
  }
 
 /*
