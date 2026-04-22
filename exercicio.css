@@ -34,4 +34,13 @@
   animation: piscar 1s ease-in-out infinite;
 }
 
+@keyframes girar {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.satisfeito {
+  border-color: limegreen;
+  animation: girar 1.2s linear infinite;
+}
 
