@@ -44,3 +44,12 @@
   animation: girar 1.2s linear infinite;
 }
 
+@keyframes pulsar {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.18); }
+}
+
+.com-raiva {
+  animation: pulsar 0.45s ease-in-out infinite;
+}
+
